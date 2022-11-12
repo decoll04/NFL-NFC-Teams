@@ -1,0 +1,79 @@
+* { 
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    float: right;
+  }
+
+h2 {
+    text-align: center;
+}
+
+team {
+      border: 1px solid black;
+      float: left;
+      padding: 5px;
+      width: 75%;
+      margin: .25em;
+}
+
+.container {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.button1 {
+    width: 100%;
+    display: flex;
+}
+
+form {
+    margin:0 auto;
+    width:225px;
+    padding:10px;
+    border:solid 2px #425955;
+}
+
+table {
+    margin:0 auto;
+    border-color: black;
+    border-width: 1px;
+    width: 60%;
+}
+
+th {
+    text-align: center;
+    color: black;
+}
+
+td {
+    text-align: center;
+}
+
+@media all and (min-width: 1000px) {
+
+    team {
+        padding: 5px;
+        width: 20%;
+        margin: .25em;
+    }
+
+    .container { 
+        width: 100%;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+    }
+    
+}
+
+

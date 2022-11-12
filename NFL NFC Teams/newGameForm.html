@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+    <title>Games</title>
+<link rel="stylesheet" href="css_nfl/flexbox.css">
+</head>
+<body>
+  <form action="#" method="post" id="form">
+      <div><label for="date">Date: </label><input type="date" id="gameDate"></div>
+
+        <label for="homeTeam">Home Team: </label>
+          <select id="homeTeamList">
+            <option value="Arizona Cardinals">Arizona Cardinals</option>
+            <option value="Atlanta Falcons">Atlanta Falcons</option>
+            <option value="Carolina Panthers">Carolina Panthers</option>
+            <option value="Chicago Bears">Chicago Bears</option>
+            <option value="Dallas Cowboys">Dallas Cowboys</option>
+            <option value="Detroit Lions">Detroit Lions</option>
+            <option value="Green Bay Packers">Green Bay Packers</option>
+            <option value="Los Angeles Rams">Los Angeles Rams</option>
+            <option value="Minnesota Vikings">Minnesota Vikings</option>
+            <option value="New York Giants">New York Giants</option>
+            <option value="New Orleans Saints">New Orleans Saints</option>
+            <option value="Philadelphia Eagles">Philadelphia Eagles</option>
+            <option value="San Francisco 49ers">San Francisco 49ers</option>
+            <option value="Seattle Seahawks">Seattle Seahawks</option>
+            <option value="Tampa Bay Buccaneers">Tampa Bay Buccaneers</option>
+            <option value="Washington Commanders">Washington Commanders</option>
+          </select>
+    
+        <label for="awayTeam">Away Team: </label>
+          <select id="awayTeamList">
+            <option value="Arizona Cardinals">Arizona Cardinals</option>
+            <option value="Atlanta Falcons">Atlanta Falcons</option>
+            <option value="Carolina Panthers">Carolina Panthers</option>
+            <option value="Chicago Bears">Chicago Bears</option>
+            <option value="Dallas Cowboys">Dallas Cowboys</option>
+            <option value="Detroit Lions">Detroit Lions</option>
+            <option value="Green Bay Packers">Green Bay Packers</option>
+            <option value="Los Angeles Rams">Los Angeles Rams</option>
+            <option value="Minnesota Vikings">Minnesota Vikings</option>
+            <option value="New York Giants">New York Giants</option>
+            <option value="New Orleans Saints">New Orleans Saints</option>
+            <option value="Philadelphia Eagles">Philadelphia Eagles</option>
+            <option value="San Francisco 49ers">San Francisco 49ers</option>
+            <option value="Seattle Seahawks">Seattle Seahawks</option>
+            <option value="Tampa Bay Buccaneers">Tampa Bay Buccaneers</option>
+            <option value="Washington Commanders">Washington Commanders</option>
+          </select>
+          
+        <label for="homeTeamPoints">Home Team Points: </label><input type="text" id="homeTeamPoints" />
+    
+        <label for="awayTeamPoints">Away Team Points: </label><input type="text" id="awayTeamPoints" />  
+    
+  </form>
+  <div class="button1">
+    <button type="button" id="createGame">Create a New Game</button>
+  </div>
+  <div id="output"></div>
+	<script src="js/nfl_2.js"></script>
+</body>
+</html>
